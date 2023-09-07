@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/Proyecto/css/bootstrap.css">
+  </head>
+
+  <body>
+    <style>
+        .bg-image{
+            background-image: url(/Proyecto/img/logo\ uñas.jpg );
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    
+    <!-- Contenedor principal -->
+    <div class="container-fluid bg-image">
+        <!-- Centrar el contenido verticalmente -->
+        <div class="row justify-content-center align-items-center vh-100">
+            <!-- Formulario -->
+            <div class="col-md-6">
+                <!-- Targeta comienzo-->
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Tu formulario aquí -->
+                        <form>
+                            <!-- Campos del formulario -->
+                            <center><h1>Hola!</h1></center>
+                            <label for="exampleInputEmail1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"><br><br>
+                            <button type="button" class="btn btn-light">Light</button>
+
+                            
+                           
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  </body>
+</html>
